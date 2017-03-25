@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "订餐",
+    "version": "1.0",
+    "description": "自动订餐",
+	"content_scripts": [
+        {
+            "matches": ["*://web.oa.zulong.com/C6/jhsoft.web.portal/default/index.aspx"],
+            "js": ["js/jquery-3.2.0.min.js", "js/dinner.js"]
+        }
+    ]
+}
